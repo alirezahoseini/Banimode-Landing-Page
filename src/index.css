@@ -76,11 +76,18 @@ badge.percent{
     border-radius: 20px;
     margin-right: 16px;
     display: flex;
+    width: fit-content;
     align-items: center;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+}
+badge.sticky{
+    position: absolute;
+    top: 15px;
+    left: -12px;
+    padding-left: 25px;
 }
 del{
     color: var(--gray-dark);
@@ -109,6 +116,16 @@ ins.price{
 
 @media screen and (max-width:768px){
     body{
+        font-size: 16px;
+    }
+    ins.price{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    del{
+        font-size: 16px;
+    }
+    badge.percent{
         font-size: 16px;
     }
 }
