@@ -1,7 +1,6 @@
 // Styles
 import '../../files/styles/css/OfferProduct.css'
 // Components 
-import Header from '../Header/Header'
 import Title from "../Title/Title";
 import SecondTitle from "../Title/SecondTitle";
 import Button from "../Button/Button";
@@ -9,6 +8,8 @@ import Price from "./Price";
 import Badge from "./Badge";
 import DeletedPrice from "./DeletedPrice";
 import Description from "./Description";
+import OfferImageRight from "./OfferImages/OfferImageRight";
+
 
 function OfferProduct() {
   return (
@@ -25,13 +26,7 @@ function OfferProduct() {
             </div>
             <div className="row mx-0 px-0 w-100 mt-5">
                 {/* Offer Product Image  */}
-                <div className="col-lg-6 p-0 m-0 offer-product-img">
-                    <div className="box-1">
-                        <i className="icon-light-discount"></i>
-                    </div>
-                    <div className="box-2"></div>
-                    <img src="./img/offer.png" alt="" />
-                </div>
+                <OfferImageRight />
                 {/* Offer Product Info */}
                 <div className="col-lg-6 p-0 m-0 offer-product-info mt-5 mt-lg-0 d-inline-flex flex-column justify-content-center">
                     <h4 className='font-weight-bold mt-5 mt-lg-0'>کت تک مردانه ال سی من</h4>

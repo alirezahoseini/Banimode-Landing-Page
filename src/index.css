@@ -63,6 +63,26 @@ a{
     max-width: 1280px;
 }
 
+/* ---------------------------------  
+                FontSies
+---------------------------------- */
+.font-xl{
+    font-size: 20px;
+}
+.font-lg{
+    font-size: 16px;
+}
+.font-sm{
+    font-size: 15px;
+}
+/* ---------------------------------  
+                Text colors
+---------------------------------- */
+.text-gray-dark{
+    color: var(--gray-dark);
+}
+
+
 
 /* ---------------------------------  
   Global Style for Mini Component 
@@ -108,6 +128,20 @@ ins.price{
     font-size: .9em;
     margin: 7px 0;
 }
+.circle-sticky{
+    width: 12px;
+    height: 12px;
+    border: 2px solid var(--second);
+    position: absolute;
+    top: 23px;
+    right: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
 
 
 
@@ -116,6 +150,15 @@ ins.price{
 
 @media screen and (max-width:768px){
     body{
+        font-size: 16px;
+    }
+    .font-xl{
+        font-size: 18px;
+    }
+    .font-sm{
+        font-size: 14px;
+    }
+    .font-lg{
         font-size: 16px;
     }
     ins.price{

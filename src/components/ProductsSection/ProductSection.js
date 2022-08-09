@@ -1,10 +1,8 @@
 // Styles
 import '../../files/styles/css/ProductSection.css'
 // Components 
-import Header from '../Header/Header'
 import Title from "../Title/Title";
 import SecondTitle from "../Title/SecondTitle";
-import Button from "../Button/Button";
 import TransparentButton from "../Button/TransparentButton";
 import ProductCart from "./ProductCart/ProductCart";
 

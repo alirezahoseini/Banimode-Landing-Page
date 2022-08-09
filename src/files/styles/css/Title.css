@@ -3,6 +3,7 @@
   font-weight: bolder;
   position: relative;
   display: inline-block;
+  max-width: fit-content;
 }
 
 .title::after {

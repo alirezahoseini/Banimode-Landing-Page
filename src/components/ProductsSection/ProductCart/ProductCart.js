@@ -1,5 +1,4 @@
 import '../../../files/styles/css/ProductCart.css';
-import Badge from '../../OfferProduct/BadgeSticky';
 import Price from "../../OfferProduct/Price";
 import DeletedPrice from "../../OfferProduct/DeletedPrice";
 import BadgeSticky from '../../OfferProduct/BadgeSticky';
