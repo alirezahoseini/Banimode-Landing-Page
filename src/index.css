@@ -75,11 +75,17 @@ a{
 .font-sm{
     font-size: 15px;
 }
+.font-m{
+    font-size: 14px;
+}
 /* ---------------------------------  
                 Text colors
 ---------------------------------- */
 .text-gray-dark{
     color: var(--gray-dark);
+}
+.text-second{
+    color: var(--second);
 }
 
 

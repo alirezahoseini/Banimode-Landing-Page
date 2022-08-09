@@ -13,8 +13,8 @@ export default function SocialSection() {
                     <Title />
                     <SecondTitle />
                 </div>
-                <div className="row m-0 p-0 w-100 flex-column-reverse">
-                    <div className="col-lg-6 m-0 p-0 mt-4 mt-lg-0">
+                <div className="row m-0 p-0 w-100 flex-column-reverse flex-lg-row">
+                    <div className="col-lg-6 m-0 p-0 mt-4 mt-lg-0 d-flex flex-column justify-content-lg-center">
                         <h3 className="font-weight-bold h4 font-xl">زودتر از همه از تخفیف‌ها خبردار شوید!</h3>
                         <p className="font-sm mt-4 mb-3 text-gray-dark">
                             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان 

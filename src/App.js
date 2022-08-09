@@ -5,6 +5,7 @@ import ProductsSection from "./components/ProductsSection/ProductSection";
 import PlanSection from "./components/PlanSection/PlanSection";
 import SocialSection from "./components/SocialSection/SocialSection";
 import OfferCodesSection from "./components/OfferCodesSection/OfferCodesSection";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <PlanSection />
         <SocialSection />
         <OfferCodesSection />
+        <Footer />
     </div>
   );
 }
