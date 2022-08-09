@@ -1,3 +1,15 @@
+:root{ 
+    --main: #6BBB26;
+    --main-light: #F1FDD6;
+    --second: #138173;
+    --second-light: #1EA182;
+    --gray: #eee;
+    --gray-light: #f5f5f5;
+    --gray-dark: #9E9E9E;
+    --white: #fff;
+    --black: #212121;
+    --overlay: rgba(0,0,0,.04);
+}
 @font-face {
     font-family: 'shabnam';
     src: url('./files/fonts/shabnam/Shabnam-FD.eot'); /* IE9 Compat Modes */
@@ -28,6 +40,10 @@
     font-style: light;
     font-weight: light;
 }
+::selection{
+    background-color: var(--second-light);
+    color: var(--white);
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -35,5 +51,64 @@
 }
 body{
     font-family: shabnam !important;
-    font-size: 16px;
+    font-size: 18px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none !important;
+}
+.container-fluid{
+    max-width: 1280px;
+}
+
+
+/* ---------------------------------  
+  Global Style for Mini Component 
+---------------------------------- */
+
+
+badge.percent{
+    background-color: var(--second);
+    color: var(--white);
+    padding: 5px 16px 0 16px;
+    border-radius: 20px;
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+del{
+    color: var(--gray-dark);
+}
+.percent , del{
+    font-size: 15px;
+    font-weight: bold;
+}
+ins.price{
+    color: var(--second);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.offer-des{
+    color: var(--gray-dark);
+    font-size: .9em;
+    margin: 7px 0;
+}
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    body{
+        font-size: 16px;
+    }
 }

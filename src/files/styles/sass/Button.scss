@@ -1,0 +1,24 @@
+@import './variables';
+@import './mixins';
+
+
+.button{
+    border: 2px solid $second;
+    outline: none;
+    @include borderRadius(8px);
+    @include transition(.3s);
+    padding: 16px 24px;
+    background-color: $second;
+    color: $white;
+    display: flex;
+    align-items: center;
+
+    i{
+        font-size: 1.8em;
+        margin-right: 8px;
+    }
+    &:hover{
+        background-color: $white;
+        color: $second;
+    }
+}
