@@ -7,14 +7,14 @@ export default function Footer() {
     return(
         <footer>
             <div className="row m-0 p-0">
-                <FooterOption />
-                <FooterOption />
-                <FooterOption />
-                <FooterOption />
+                <FooterOption title='تحویل رایگان' des='سفارشات بالای 50 هزار تومان' iconName='send' />
+                <FooterOption title='مناسبترین قیمت ها' des='ارزانتر از همه جا' iconName='cart' />
+                <FooterOption title='امکان مقایسه' des='بین کالاها و خدمات' iconName='award' />
+                <FooterOption title='پشتیبانی همه روزه' des='پشتیبانی 7 روز هفته' iconName='calling' />
             </div>
             <div className="row p-0 m-0">
                 <div className="col-12 p-0 m-0 mt-5 my-3">
-                    <Title />
+                    <Title title='فروشگاه اینترنتی ژاکت'/>
                 </div>
                 <div className="col-md-8 col-lg-9 p-0 m-0">
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد.

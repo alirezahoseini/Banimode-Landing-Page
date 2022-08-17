@@ -1,7 +1,7 @@
-export default function CouponCode() {
+export default function CouponCode(props) {
     return(
         <div className="coupon-code font-xl text-center">
-            <span>COUPONCODE</span>
+            <span>{props.code}</span>
         </div>
     );
 }

@@ -18,6 +18,9 @@
         margin: 15px 5px;
         font-size: 28px;
 
+        img{
+            width: 65%;
+        }
         &:hover{
             background-color: $second;
             color: $white;

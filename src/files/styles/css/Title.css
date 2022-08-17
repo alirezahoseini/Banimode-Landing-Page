@@ -2,8 +2,8 @@
   color: #6BBB26;
   font-weight: bolder;
   position: relative;
-  display: inline-block;
-  max-width: fit-content;
+  display: inline-block !important;
+  max-width: max-content;
 }
 
 .title::after {

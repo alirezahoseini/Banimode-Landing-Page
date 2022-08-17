@@ -8,10 +8,11 @@ export default function SocialIcons() {
         <div className="social-icons">
             <span className='font-lg'>سایر شبکه های اجتماعی</span>
             <div className="d-flex align-items-center">
-                <Icon />
-                <Icon />
-                <Icon />
-                <Icon />
+                <Icon name='instagram' href='#' />
+                <Icon name='twitter' href='#' />
+                <Icon name='facebook' href='#' />
+                <Icon name='telegram' href='#' />
+                <Icon name='whatsapp' href='#' />
             </div>
         </div>
     );

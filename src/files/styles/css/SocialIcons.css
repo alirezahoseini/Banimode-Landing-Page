@@ -21,6 +21,9 @@
   margin: 15px 5px;
   font-size: 28px;
 }
+.social-icons .icon img {
+  width: 65%;
+}
 .social-icons .icon:hover {
   background-color: #138173;
   color: #fff;

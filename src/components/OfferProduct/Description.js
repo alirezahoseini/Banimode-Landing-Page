@@ -1,8 +1,8 @@
-export default function Discription() {
+export default function Discription(props) {
     return(
         <div className="offer-des d-flex align-items-center">
             <i className="icon-light-accept ml-2"></i>
-            <span>تهیه شده از بهترین پارچه‌های ایتالیایی</span>
+            <span>{props.description}</span>
         </div>
     );
 }

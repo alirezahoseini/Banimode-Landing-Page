@@ -1,7 +1,7 @@
-export default function Badge() {
+export default function Badge(props) {
     return(
         <badge className="percent">
-            20%
+            {props.percent}%
         </badge>
     );
 }

@@ -1,5 +1,5 @@
-export default function Price() {
+export default function Price(props) {
     return(
-        <ins className="price">2,936,000 تومان</ins>
+        <ins className="price">{props.price} تومان</ins>
     );
 }

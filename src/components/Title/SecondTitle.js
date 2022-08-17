@@ -1,7 +1,7 @@
 import '../../files/styles/css/Title.css';
 
-export default function SecondTitle() {
+export default function SecondTitle(props) {
     return(
-        <p className='mt-2 font-weight-bold'>این تایتل دوم است با رنگی دیگر</p>
+        <p className='mt-2 font-weight-bold'>{props.title}</p>
     );
 }

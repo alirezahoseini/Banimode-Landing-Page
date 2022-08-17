@@ -1,5 +1,5 @@
-export default function DeletedPrice() {
+export default function DeletedPrice(props) {
     return(
-        <del>3,670,000</del>
+        <del>{props.deletedPrice}</del>
     );
 }

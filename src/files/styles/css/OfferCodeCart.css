@@ -50,8 +50,8 @@
 
 .coupon-code::after, .coupon-code::before {
   content: "";
-  width: 16px;
-  height: 16px;
+  width: 17px;
+  height: 17px;
   display: block;
   position: absolute;
   border-radius: 50%;
@@ -65,11 +65,11 @@
 }
 
 .coupon-code::after {
-  right: -6px;
+  right: -7px;
 }
 
 .coupon-code::before {
-  left: -6px;
+  left: -7px;
 }
 
 /*# sourceMappingURL=OfferCodeCart.css.map */

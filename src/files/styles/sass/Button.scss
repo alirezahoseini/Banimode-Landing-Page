@@ -7,7 +7,7 @@
     outline: none;
     @include borderRadius(8px);
     @include transition(.3s);
-    padding: 5px 24px;
+    padding: 10px  15px 10px 7px;
     background-color: $second;
     color: $white;
     display: flex;
@@ -16,8 +16,7 @@
 
     i{
         font-size: 1.8em;
-        margin-right: 8px;
-        margin-top: 5px;
+        margin-right: 11px;
     }
     &:hover{
         background-color: transparent;

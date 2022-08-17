@@ -1,9 +1,9 @@
 import '../../files/styles/css/Title.css';
 
-export default function Title() {
+export default function Title(props) {
     return(
         <h2 className='title'>
-            این تایتل است
+            {props.title}
         </h2>
     );
 }

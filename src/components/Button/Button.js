@@ -1,12 +1,12 @@
 import '../../files/styles/css/Button.css';
 
-export default function Button() {
+export default function Button(props) {
     return(
         <button type='button' className='button d-flex'>
             <span>
-                من دکمم
+                {props.title}
             </span>
-            <i className="icon-light-arrow-left-3"></i>
+            <i className={'icon-light-' + props.iconName}></i>
         </button>
     );
 }

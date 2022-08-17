@@ -10,8 +10,8 @@ export default function SocialSection() {
         <div className='social-section m-0 p-0 my-5'>
             <div className="row m-0 p-0 w-100">
                 <div className="col-12 p-0 m-0">
-                    <Title />
-                    <SecondTitle />
+                    <Title title="شبکه های اجتماعی"/>
+                    <SecondTitle title='پیشنهاد های تخفیف دار ویژه شبکه های اجتماعی'/>
                 </div>
                 <div className="row m-0 p-0 w-100 flex-column-reverse flex-lg-row">
                     <div className="col-lg-6 m-0 p-0 mt-4 mt-lg-0 d-flex flex-column justify-content-lg-center">
@@ -19,7 +19,7 @@ export default function SocialSection() {
                         <p className="font-sm mt-4 mb-3 text-gray-dark">
                             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان 
                         </p>
-                        <Button />
+                        <Button title='اینستاگرام ما' iconName='instagram' />
                         <SocialIcons />
                     </div>
                     <OfferProductImageLeft />
