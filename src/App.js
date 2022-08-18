@@ -10,6 +10,7 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className='container-fluid px-lg-2'>
+      
         <HeadSection />
         <OfferProduct />
         <ProductsSection />
