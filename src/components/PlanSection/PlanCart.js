@@ -9,17 +9,17 @@ import PlanOption from './PlanOption';
 
 
 
-export default function PlanCart(props) {
+export default function PlanCart({percent, title, delPrice, price}) {
     return(
         <div className="plan-cart col-md-6 col-lg-3 p-2 p-lg-3 my-3 mx-auto">
             <div className="plan-body pt-3">
-                <BadgeSticky percent={props.percent} />
+                <BadgeSticky percent={percent} />
                 <CircleSticky />
-                <h5 className='font-weight-bold mt-5 mb-4'>{props.title}</h5>
+                <h5 className='font-weight-bold mt-5 mb-4'>{title}</h5>
                 <div className='d-flex flex-column text-left'>
-                    <DeletedPrice deletedPrice={props.delPrice} />
+                    <DeletedPrice deletedPrice={delPrice} />
                     <span className='mt-1'>
-                        <span className='font-sm'>ماهیانه / </span> <Price price={props.price} />
+                        <span className='font-sm'>ماهیانه / </span> <Price price={price} />
                     </span>
                 </div>
                 <p className='font-lg mt-4'>

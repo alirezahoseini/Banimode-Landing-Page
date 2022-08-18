@@ -15,7 +15,7 @@ export default function OfferCodesSection() {
                     <SecondTitle title='تخفیف های بیشتر در سبد خرید'/>
                 </div>
                 <div>
-                    <TransparentButton title='مشاهده فروشگاه' />
+                    <TransparentButton title='مشاهده فروشگاه' iconName='arrow-left-3' />
                 </div>
             </div>
             <div className="row w-100 p-0 m-0">

@@ -1,12 +1,12 @@
 import '../../files/styles/css/Button.css';
 
-export default function TransparentButton(props) {
+export default function TransparentButton({title, iconName}) {
     return(
         <button type='button' className='transparent-button d-flex'>
             <span>
-                {props.title}
+                {title}
             </span>
-            <i className="icon-light-arrow-left-3"></i>
+            <i className={'icon-light-' + iconName} ></i>
         </button>
     );
 }

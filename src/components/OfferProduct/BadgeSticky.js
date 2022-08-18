@@ -1,7 +1,7 @@
-export default function BadgeSticky(props) {
+export default function BadgeSticky({percent}) {
     return(
         <badge className="percent sticky">
-            {props.percent}%
+            {percent}%
         </badge>
     );
 }

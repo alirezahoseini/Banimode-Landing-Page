@@ -18,7 +18,7 @@ function ProductsSection() {
                     <SecondTitle title='تخفیف های رویایی بر روی محصولات منتخب'/>
                 </div>
                 <div>
-                    <TransparentButton title='مشاهده همه' />
+                    <TransparentButton title='مشاهده همه' iconName='arrow-left-3' />
                 </div>
             </div>
             <div className="row w-100 p-0 m-0">

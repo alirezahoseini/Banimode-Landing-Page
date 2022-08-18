@@ -6,17 +6,17 @@ import CouponCode from './CouponeCode';
 
 
 
-export default function OfferCodeCart(props) {
+export default function OfferCodeCart({title, percent, code}) {
     return(
         <div className="offer-code-cart col-md-6 col-lg-3 p-2 p-lg-3 my-3 mx-auto">
             <div className="offer-body pt-3">
-                <BadgeSticky percent={props.percent} />
+                <BadgeSticky percent={percent} />
                 <CircleSticky />
-                <h5 className='font-weight-bold mt-5'>{props.percent} درصد تخفیف</h5>
+                <h5 className='font-weight-bold mt-5'>{percent} درصد تخفیف</h5>
                 <p className='font-lg mt-2'>
-                    {props.title}
+                    {title}
                 </p>
-                <CouponCode code={props.code} />
+                <CouponCode code={code} />
             </div>
         </div>
     );
